@@ -5,3 +5,5 @@ function printBadges(names){
     console.log(`Welcome ${names[i]}! You are employee #${i + 1}.`);
   }
 }
+const array=['a','b']
+printBadges(...array)
