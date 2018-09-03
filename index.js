@@ -10,7 +10,7 @@ function printBadges(names){
 function tailsNeverFails (tails) {
   tails = 0;
 
-  while (Math.random() >= 1) {
+  while (Math.random() >= 0.5) {
     tails++;
   }
 
